@@ -1,0 +1,48 @@
+pwd
+
+
+ls ~/music/.
+ Files listed will be: patterns.txt & symmetry.py
+nano ~/music/patterns.txt
+cat ~/music/patterns.txt 
+diff ~/music/patterns.txt ~/music/symmetry.py
+mv ~/music/patterns.txt ~/math/calculus/
+rm ~/math/geometry/triangle.txt
+cd ../math/
+git init
+git remote add origin <github.com/jocej05/ulab_joce>
+cp ~/music/symmetry.py ~/math/
+git status. Git is currently not tracking symmetry.py because it hasn’t been added (git add) 
+
+
+Add only to symmetry.py to math/staging area: git add symmetry.py
+Add all files and changes: git add .
+
+
+ Run git add symmetry.py → git starts tracking symmetry.py 
+To unstage symmetry.py → git reset symmetry.py
+git commit -m "Add symmetry.py to math repository"
+
+
+git push origin main.
+Should be main branch because its the default branch for most repositories  
+git branch applied-math
+git checkout applied-math
+Pushing all these changes to remote repository: 
+Create directory + file 
+mkdir physics
+echo "Fun facts about mechanics" > physics/mechanics.txt
+Add + commit changes 
+git add .
+git commit -m "Added physics/ directory with mechanics.txt"
+Push changes to remote repository
+git push origin applied-math
+Switching to the original branch before committing → uncommitted changes may remain in the working directory or else git will alert you to commit/stash the changes if they conflict with the files on the other branch 
+.
+List all branches: git branch 
+Current branch will be highlighted in green with *
+git checkout main
+git merge applied-math
+
+
+
