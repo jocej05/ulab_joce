@@ -1,0 +1,4 @@
+I'm not sure why I'm seeing homework4 and planet folders, along with hw4.ipynb in this branch. I ran rm command to manually remove these from this branch 
+and when running: (base) joce.j05@wifi-10-45-25-241 homework8 % ls
+Doctor, is this normal_..zip	Doctor__is_this_normal__.pdf	LaTeX Account SC.pdf		hw8 commit.png			hw8 push.png			hw8_add.png
+I do not see these folders and files in here but they appear in my Gradescope submission. Sorry!
